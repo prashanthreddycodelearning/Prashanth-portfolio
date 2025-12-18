@@ -7,7 +7,7 @@ import {
   BookOpen,
 } from "lucide-react";
 import { Link } from "react-router-dom";
-import { Button } from "../../components/ui/Button";
+import { Button } from "../../Components/ui/Button";
 import { createPageUrl } from "../../utils";
 
 export default function HeroSection() {

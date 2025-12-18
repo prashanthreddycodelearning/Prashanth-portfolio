@@ -1,10 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Mail, Phone, Globe, Send } from "lucide-react";
-import { Button } from "../components/ui/Button";
+import { Button } from "../Components/ui/Button";
 import { Input } from "../components/ui/Input";
-import { Textarea } from "../components/ui/Textarea";
-import { Card, CardContent } from "../components/ui/Card";
+import { Textarea } from "../Components/ui/Textarea";
+import { Card, CardContent } from "../Components/ui/Card";
 
 export default function Contact() {
   const contactInfo = [

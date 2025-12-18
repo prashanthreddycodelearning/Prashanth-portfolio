@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Mail, Phone, Globe, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
-import { Button } from "../../components/ui/Button";
+import { Button } from "../../Components/ui/Button";
 import { createPageUrl } from "../../utils";
 
 export default function ContactCTA() {

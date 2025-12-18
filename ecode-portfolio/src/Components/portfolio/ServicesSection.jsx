@@ -11,7 +11,7 @@ import {
 } from "lucide-react";
 import { Link } from "react-router-dom";
 import { createPageUrl } from "../../utils";
-import { Button } from "../../components/ui/Button";
+import { Button } from "../../Components/ui/Button";
 
 export default function ServicesSection() {
   const domains = [
