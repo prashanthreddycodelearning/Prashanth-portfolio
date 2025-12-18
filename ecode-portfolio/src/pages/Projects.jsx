@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { Tabs } from "../components/ui/Tabs";
 import { Tabs, TabsList, TabsTrigger } from "../components/ui/Tabs";
 import { Input } from "../Components/ui/Input";
 import { Badge } from "../Components/ui/Badge";

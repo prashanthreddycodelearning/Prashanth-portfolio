@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Mail, Phone, Globe, Send } from "lucide-react";
 import { Button } from "../Components/ui/Button";
-import { Input } from "../components/ui/Input";
+import { Input } from "../Components/ui/Input";
 import { Textarea } from "../Components/ui/Textarea";
 import { Card, CardContent } from "../Components/ui/Card";
 
