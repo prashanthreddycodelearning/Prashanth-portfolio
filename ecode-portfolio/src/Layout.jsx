@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Home, FolderOpen, Mail } from "lucide-react";
 
 import { createPageUrl } from "./utils";
-import { Button } from "./components/ui/Button";
+import { Button } from "./Components/ui/Button";
 import Footer from "./Components/portfolio/Footer";
 
 export default function Layout() {
