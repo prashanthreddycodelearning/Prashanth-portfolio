@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Tabs } from "../components/ui/Tabs";
-import { Tabs, TabsList, TabsTrigger } from "../components/ui/Tabs";
+import { TabsList, TabsTrigger } from "../components/ui/Tabs";
 import { Input } from "../Components/ui/Input";
 import { Badge } from "../Components/ui/Badge";
 import {
@@ -15,7 +15,6 @@ import {
 export default function Projects() {
   const [activeCategory, setActiveCategory] = useState("embedded");
   const [searchQuery, setSearchQuery] = useState("");
-
   const projectCategories = {
     embedded: {
       icon: Cpu,
